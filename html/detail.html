@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../resours/js/utils.js"></script>
+    <script src="../resours/jquery/jquery.js"></script>
+    <script src="../resours/iconfont/iconfont.js"></script>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/detail.css">
+    <script src="../resours/js/cookie.js"></script>
+    <script src="../resours/js/zoom.js"></script>
+    <title>详情页</title>
+</head>
+
+<body>
+    <div id="detailHeader"></div>
+
+    <div id="detailAll">
+        <div class="detailAll_cent">
+
+            <div class="nav">
+                <!-- <a target="_blank" href="../index.html">首页</a> &nbsp;/&nbsp;
+                <a href="javascript:;"></a> -->
+                <!-- <a href="javascript:void(0)">红魔有线游戏耳机</a> -->
+            </div>
+
+            <div class="main_left">
+                <div class="img_datu">
+                    <!-- <div class="fangda"></div>
+                    <div class="zzc"></div> -->
+                    <!-- <img id="imgSrc" src="//oss.static.nubia.cn/active/5f43731e1b3cb41.png"> -->
+                </div>
+                <ul id="img_thumb" class="mian_left_thumb">
+                    <!-- <li class="liAtive"><img src="//oss.static.nubia.cn/active/5f43731e1aea435.png"></li>
+                    <li class="selected"><img src="//oss.static.nubia.cn/active/5f43731e1b3cb41.png"></li> -->
+                </ul>
+            </div>
+
+            <div class="main_right">
+                <p class="main_right_p">
+                    <!-- <span style="font-size: 24px; color: rgb(0, 0, 0);">红魔有线游戏耳机 黑色（3.5mm） </span> -->
+                </p>
+
+
+                <div class="productActivity">
+                    <div class="price">
+                        <p class="rightLabel">价　格</p>
+                        <div class="PriceContent">
+                            <!-- <span>
+                                <i class="priceIcon">¥</i>99.00
+                            </span> -->
+                        </div>
+                    </div>
+                    <div id="coupon-bananer" class="coupon actionList" style="display: none;">
+                        <div class="rightLabel"><span>优惠券</span></div>
+                        <div class="coupon-r">
+                            <div class="couponList"></div>
+                        </div>
+                    </div>
+                    <div class="promo-sell">
+                        <div class="rightLabel">活　动</div>
+                        <div class="promo-info">
+                            <p class="spec" style="display: none;">
+                                <i class="wrap-txt">分期</i>
+                                <span>享受花分期</span>
+                            </p>
+                            <p>
+                                <i class="wrap-txt">积分</i>
+                                <span>购买即赠积分，积分可抵现</span>
+                            </p>
+                            <p>
+                                <i class="wrap-txt">包邮</i>
+                                <span>青铜及以下满59、白银满39、黄金及以上包邮</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="CompanyData"
+                        style="width: 100%;display: flex;justify-content: space-between;align-items: flex-start;padding: 30px 0 30px;border-bottom: 1px solid #eee;">
+                        <div class="rightLabel" style="font-size: 12px;">商家信息</div>
+                        <div class="promo-info">
+                            <p style="font-size: 12px;">努比亚技术有限公司 &nbsp;400-700-6600 &nbsp;广东 深圳</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="addressMain">
+                    <p class="rightLabel">地　址</p>
+                    <div class="address">
+                        <p>
+                            <img src="https://oss.static.nubia.cn/upload/5ae00f8b59e2087.png">
+                            <span class="address_content" regionid="363">广东省 广州市 荔湾区</span>
+                        </p>
+                        <span class="dh">
+                            <span class="expressprefix">现货</span>
+                        </span>
+                    </div>
+                    <span class="change">修改</span>
+                </div>
+
+                <div class="productOptions">
+                    <div class="phone_net">
+                        <p class="rightLabel2">
+                            选择颜色
+                        </p>
+                        <ul id="selectColor" class="clearfix_jj net">
+                            <!-- <li class="cur">
+                                黑色（3.5mm）</li>
+                            <li class="">
+                                黑色（Type -C）</li> -->
+                        </ul>
+                    </div>
+                    <!---->
+                    <!---->
+                    <div class="phone_net_zj">
+                        <div id="huabei" style="display: none;">
+                            <p class="rightLabel2">花呗分期</p>
+                            <ul class="hb"></ul>
+                        </div>
+                    </div>
+                    <div class="count" style="overflow: hidden;">
+                        <p class="rightLabel">
+                            数　量
+                        </p>
+                        <div class="num">
+                            <div class="minus">
+                                <img src="//shop-soa-static.nubia.com/images/buy_mobile/minus.png?v=1607393616">
+                            </div>
+                            <div class="totle">1</div>
+                            <div class="add">
+                                <img src="//shop-soa-static.nubia.com/images/buy_mobile/add.png?v=1607393616">
+                            </div>
+                        </div>
+                        <!---->
+                    </div>
+                </div>
+
+                <div class="btnGroup">
+                    <div class="buy-btn-main">
+                        <a class="addShopCar">加入购物车</a>
+                        <form id="bottom-buy-btn" method="POST" action="/order/check" class="buy-now" stock="1">
+                            <input type="hidden" name="buy_from" value="1">
+                            <input id="params" type="hidden" name="item_param"> 
+                            <a class="button active_button">立即购买</a>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="detailFoot"></div>
+
+    <script src="/js/detail.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+.win {
+    width: 100%;
+    height: 100%;
+    background: url("../images/beijing.png") no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.qf {
+    width: 855px;
+    height: 508px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* border: 1px solid #ccc; */
+    margin: -254px 0 0 -427px;
+    border-radius: 12px;
+    display: flex;
+}
+
+.qfimg img {
+    width: 355px;
+    height: 508px;
+}
+
+.dl {
+    width: 500px;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.dl h2 {
+    font-weight: 800;
+    width: 200px;
+    height: 25px;
+    line-height: 25px;
+    margin: 60px 0 0 200px;
+}
+
+.xx {
+    width: 100%;
+    height: 400px;
+}
+
+.xx input {
+    width: 345px;
+    height: 42px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 30px 0 0 80px;
+    outline: none;
+
+}
+
+.user {
+    width: 100%;
+    height: 88px;
+}
+
+#loginBtn {
+    width: 178px;
+    height: 42px;
+    background-color: #0ba3f5;
+    border-radius: 4px;
+    margin: 30px 0 0 5px;
+    border: none;
+    outline: none;
+    float: left;
+}
+
+#register {
+    width: 178px;
+    height: 42px;
+    background-color: #0ba3f5;
+    border-radius: 4px;
+    margin: 30px 0 0 80px;
+    border: none;
+    outline: none;
+    float: left;
+
+}
+
+#xx #yzm {
+    width: 345px;
+    width: 42px;
+    position: relative;
+}
+
+#yzmInput {
+    width: 180px;
+
+}
+
+#yzmhq {
+    width: 118px;
+    margin-left: 0;
+    height: 45px;
+    padding: 0 0;
+    background-color: rgb(120, 217, 230);
+    text-align: center;
+    line-height: 45px;
+    position: absolute;
+    top: 14px;
+    left: 306px;
+    border: none;
+    /* border-radius: 10px; */
+    outline: none;
+    cursor: pointer;
+}
+#registerForm {
+    position: relative;
+}
+.zhucema {
+    width: 118px !important;
+    top: 28px !important;
+    
+}
+.usernameError {
+    position: absolute;
+    left: 80px;
+    width: 345px;
+    height: 30px;
+    line-height: 30px;
+    /* text-align: center; */
+    color: red;
+}
+.dw {
+    position: relative;
+}
+label {
+    display: block;
+    width: 345px !important;
+    height: 20px !important;
+    position: absolute;
+    top: 72px;
+    left: 80px;
+    color: red;
+    /* text-align: center; */
+}
+/* #usernameInput,
+#phoneInput,
+#passwordInput1,
+#yzmInput {
+    background: url(./img/g.png) no-repeat center 100px;
+    background-size: 18px;
+} */

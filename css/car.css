@@ -1,0 +1,283 @@
+#cart {
+    width: 100%;
+    min-width: 1200px;
+    background: #f0f0f0;
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+.container-fluid {
+    margin: 0 auto;
+    width: 1200px;
+    padding: 0;
+}
+.bg-payorder {
+    height: 140px;
+    background: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    padding: 20px 40px;
+}
+.bg-payorder>ul {
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.bg-payorder>ul>li.active {
+    color: #333;
+    border-bottom: 2px solid #333;
+}
+.bg-payorder>ul>li {
+    position: relative;
+    width: 25%;
+    height: 100%;
+    color: #999;
+    font-size: 16px;
+    border-bottom: 2px solid #e6e6e6;
+    float: left;
+    text-align: center;
+    font-weight: 500;
+    line-height: 50px;
+}
+b {
+    font-weight: bold;
+}
+.bg-payorder>ul>li>b {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    bottom: -6px;
+    left: 50%;
+    margin-left: -5px;
+    border-radius: 10px;
+    background: #e6e6e6;
+    text-align: center;
+    line-height: 40px;
+    color: #666;
+}
+.bg-payorder>ul>li.active>b {
+    background: #333;
+}
+.container {
+    width: 100%;
+    padding: 0;
+}
+.cart-con {
+    padding: 0px 45px 0px 45px;
+    background: #fff;
+}
+.cart-h1 {
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    padding: 40px 10px;
+    color: #333;
+    font-weight: 500;
+}
+.check {
+    /* float: right;     */
+    padding-right: 13px;
+    font-size: 14px;
+}
+.goods {
+    width: 100%;
+    height: 189px;
+    background-color: #fff;
+    padding:0 45px 0;
+    border-bottom: 1px #ccc solid;
+}
+.goods>div {
+    height: 189px;
+    padding: 30px 10px 30px 10px;
+    float: left;
+    text-align: center;
+}
+/* .goods div:nth-child(1) {
+    padding-top: 90px;
+} */
+.goods>div:nth-child(2) {
+    width: 20%;
+}
+.goods>div:nth-child(2) img{
+    height: 100%;
+}
+.goods>div:nth-child(3) {
+    padding-top: 60px;
+    width: 33%;
+}
+.goods>div:nth-child(3) a{
+    cursor: pointer;
+}
+.goods>div:nth-child(3) a:hover{
+    color: burlywood;
+}
+.goods>div:nth-child(4) {
+    padding-top: 60px;
+    width: 9%;
+    color: #999;
+    font-size: 22px;
+}
+
+.goods>div:nth-child(5) {
+    padding-top: 60px;
+    width: 16%;
+}
+.goods>div:nth-child(5)>div {
+    width: 100%;
+    height: 31px;
+}
+
+.goods>div:nth-child(6) {
+    padding-top: 60px;
+    width: 12%;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 22px;
+}
+.goods>div:nth-child(7) {
+    
+    width: 6%;
+    cursor: pointer;
+    font-size: 22px;
+}
+.goods>div:nth-child(1) {
+    padding-top: 85px;
+}
+.but {
+    float: left;
+    height: 31px;
+    width: 20%;
+    text-align: center;
+    cursor: pointer;
+    /* line-height: 31px; */
+}
+.num_goods {
+    float: left;
+    width: 50%;
+    height: 31px;
+    text-align: center;
+    /* line-height: 31px;    */
+}
+.jisuan {
+    width: 100%;
+    height: 114px;
+    padding: 0 45px;
+    background-color: #fff;
+}
+.jisuan div {
+    padding: 40px 10px;
+}
+
+.jiesuan {
+    width: 100%;
+    height: 255px;
+    background-color: #fff;
+    padding: 20px 45px 70px 45px;
+}
+.jiesuan_R {
+    width: 355px;
+    height: 165px;
+    float: right;
+}
+.jiesuan_R_top {
+    height: 60px;
+    border-bottom: 1px #ccc solid;
+}
+.span1{
+    font-size: 14px;
+    color: #999;
+    line-height: 40px;
+}
+.span2 {
+    float: right;
+    font-size: 30px !important;
+    color: #333 !important;
+}
+.jiesuan_R_top .span2 i {
+    font-size: 20px;
+    color: #333;
+}
+.jiesuan_R_foot {
+    width: 100%;
+    height: 55px;
+    /* background-color: brown; */
+    margin-top: 50px;
+}
+.jiesuan_R_foot {
+    display: flex;
+    justify-content: space-between;
+}
+.jiesuan_R_foot a{
+    width: 170px;
+    text-align: center;
+    line-height: 55px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+.jixu {
+    border: 1px rgb(30,30,30) solid;
+}
+.jixu:hover {
+    border: none;
+    color:#fff;
+    background-color: rgb(30,30,30);
+}
+.go-pay {
+    background-color: #de634f;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* 当购物车被清空的时候显示的样式 */
+.cart-empty {
+    margin: 0 auto;
+    width: 430px;
+    position: relative;
+    margin-bottom: 60px;
+    padding: 100px 0;
+}
+.cart-empty .empty-container {
+    overflow: hidden;
+    *zoom: 1;
+}
+.left {
+    float: left;
+    overflow: hidden;
+    *zoom: 1;
+    position: relative;
+}
+.left .h1 {
+    font-size: 22px;
+    color: #666;
+    width: 270px;
+    margin-bottom: 18px;
+    font-weight: 400;
+}
+.left .btn-gobuy {
+    width: 170px;
+    height: 50px;
+    display: block;
+    line-height: 50px;
+    text-align: center;
+    background: #de634f;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cart-con {
+    padding: 0px 45px 0px 45px;
+    background: #fff;
+}
+.cart-h1 {
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    padding: 40px 0;
+    color: #333;
+    font-weight: 500;
+}
+

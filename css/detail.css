@@ -1,0 +1,372 @@
+#detailAll {
+    width: 100%;
+    min-width: 1200px;
+    min-height: 660px;
+}
+
+.detailAll_cent {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav>a:last-child {
+    cursor: default;
+    color: #999;
+}
+
+.nav {
+    padding: 20px 0;
+    margin: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 70px;
+    font-size: 14px;
+}
+
+.main_left {
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+
+.mian_left_thumb li {
+    display: inline-block;
+    margin-left: 10px;
+    width: 86px;
+    height: 86px;
+    /* border: 1px solid #de634f; */
+}
+
+.liAtive {
+    border: 1px solid #de634f;
+}
+
+.mian_left_thumb li img {
+    margin-top: 0;
+    width: 100%;
+    cursor: pointer;
+}
+
+.main_right {
+    float: right;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.productActivity {
+    display: inline-block;
+    width: 100%;
+}
+
+.price {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eee;
+}
+
+.rightLabel {
+    width: 15%;
+    color: #666;
+    font-size: 14px;
+    letter-spacing: 7px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.price .PriceContent {
+    width: 85%;
+    display: inline-block;
+}
+
+.price .PriceContent>span:nth-child(1) {
+    color: #333;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.promo-sell {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 0 30px;
+    border-bottom: 1px solid #eee;
+}
+
+.rightLabel {
+    width: 15%;
+    color: #666;
+    font-size: 14px;
+    letter-spacing: 7px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.promo-info {
+    width: 85%;
+    display: inline-block;
+}
+
+.promo-info p {
+    width: 100%;
+    margin-bottom: 7px;
+    color: rgb(53, 53, 53);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.promo-info p span {
+    display: inline-block;
+    width: 75%;
+    font-size: 14px;
+    color: rgb(30, 30, 30);
+}
+
+.promo-info p:last-child {
+    margin-bottom: 0rem;
+}
+
+.wrap-txt {
+    margin-right: 0.85rem;
+    color: #de634f;
+    padding: 0rem 1rem;
+    border: 1px solid #de634f;
+    background: white;
+    font-size: 12px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.rightLabel {
+    width: 15%;
+    color: #666;
+    font-size: 14px;
+    letter-spacing: 7px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.addressMain {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px 20px 30px 0;
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.address {
+    width: 80%;
+    padding-left: 30px;
+    margin-top: 0;
+    color: #000;
+    position: relative;
+}
+
+.address>p {
+    line-height: 18px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.expressprefix {
+    color: #de634f;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.change {
+    width: 6%;
+    color: #de634f;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+.address>p>img {
+    position: absolute;
+    width: 14px;
+    left: 10px;
+    top: 2px;
+}
+
+.address>p>span {
+    display: inline-block;
+    font-size: 14px;
+    position: relative;
+    top: 1px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.productOptions {
+    width: 100%;
+    padding: 30px 20px 0 0;
+}
+
+.phone_net {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.rightLabel2 {
+    width: 15%;
+    color: #666;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.phone_net .clearfix_jj {
+    width: 85%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.phone_net .clearfix_jj li {
+    box-sizing: border-box;
+    padding: 12px 0px;
+    width: 31%;
+    margin-right: 10px;
+    border: 1px solid rgb(224, 224, 224);
+    color: rgb(100, 100, 100);
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.phone_net .clearfix_jj .cur {
+    border: 1px #de634f solid;
+    color: #333;
+}
+
+.phone_net_zj {
+    width: 100%;
+    float: left;
+}
+
+#huabei {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.hb {
+    width: 85%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.count {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.num {
+    width: 27%;
+    height: 50px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.num div {
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(30, 30, 30);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.num div img {
+    width: 30%;
+}
+
+.btnGroup {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.buy-btn-main {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buy-btn-main a {
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.addShopCar {
+    background: #eee;
+}
+
+.buy-btn-main>* {
+    display: inline-block;
+    height: 60px;
+    width: 40%;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    line-height: 60px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.buy-now {
+    background: #de634f;
+}
+
+.img_datu {
+    position: relative;
+}
+.fangda {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    right: -300px;
+    /* background-color: aqua; */
+    display: none;
+    overflow: hidden;
+}
+.zzc {
+    width: 250px;
+    height: 250px;
+    background-color: brown;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.bigImg {
+    width: 800px;
+    height: 800px;
+    position: absolute;
+}

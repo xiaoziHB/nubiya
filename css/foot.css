@@ -1,0 +1,172 @@
+#foot {
+    width: 100%;
+}
+
+.shang {
+    width: 1200px;
+    height: 194px;
+    border-bottom: 1px #ccc solid;
+    margin: 0 auto;
+    padding: 50px 84px 10px 84px;
+    display: flex;
+}
+
+.shang div {
+    flex: 1;
+    padding: 0 15px;
+}
+
+.shang div a {
+    font-size: 50px;
+    height: 100%;
+    display: block;
+    text-align: center;
+    transition: all .3s;
+}
+
+.shang div a p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.shang div a:hover {
+    opacity: 0.5;
+}
+
+.zhong {
+    width: 1200px;
+    height: 324px;
+    padding: 50px 0;
+    margin: 0 auto;
+    border-bottom: 1px #ccc solid;
+}
+
+.zhong>div {
+    width: 200px;
+    float: left;
+    padding-right: 15px;
+}
+
+.zhong>div:nth-child(5) {
+    width: 400px;
+}
+
+.zhong p {
+    height: 27px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+
+.zhong ul li {
+    height: 21px;
+    line-height: 21px;
+    margin-bottom: 10px;
+    color: #999;
+}
+
+.zhong ul li a {
+    color: #999;
+}
+
+.zhong ul li a:hover {
+    color: #000;
+}
+
+.zhong .zhong_last .kefu {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.zhong .zhong_last .kefu a {
+    display: flex;
+    ;
+    width: 150px;
+    height: 50px;
+    float: right;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    background: #666;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    transition: all .21s;
+}
+
+.zhong .zhong_last .kefu a:hover {
+
+    background-color: #000;
+}
+
+.zhong .zhong_last .kefu a span {
+    font-size: 16px;
+}
+
+.zhong .zhong_last p {
+    margin-bottom: 0;
+    color: #999;
+    line-height: 24px;
+    font-size: 14px;
+    text-align: right;
+}
+
+.zhong .zhong_last strong {
+    text-align: right;
+    color: #000;
+    font-weight: 500;
+}
+
+.zhong .zhong_last .guanzhu {
+    text-align: right;
+}
+
+.zhong .zhong_last .guanzhu a {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.zhong .zhong_last .guanzhu span {
+    color: #999;
+}
+
+.xia {
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 70px;
+
+}
+
+.xia_left {
+    width: 1000px;
+    height: 52px;
+    position: relative;
+}
+
+.xia_left p {
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.xia_left p a {
+    color: #999;
+    font-size: 14px;
+}
+
+.xia_left p a:hover {
+    color: #000;
+    font-size: 14px;
+}
+
+.xia_right {
+    width: 200px;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: -200px;
+}
